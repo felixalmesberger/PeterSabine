@@ -23,17 +23,19 @@ body {
 	margin: 0;
 	display: block;
     font: 18px 'Cabin', sans-serif;
-    background-color: #e8e8e8;
+    background-color: #ffffff;
 }
 
 .container {
-	max-width: 978px;
-	margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-	background-color: #FFFFFF;
-    border-radius: 2px; 
-	box-shadow: 1px 5px 15px 6px rgba(100, 100, 100, 0.3);
+    background-color: #FFFFFF;
+    border: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+	border-radius: 5px;
 }
 
 .header {
@@ -68,9 +70,10 @@ body {
 
 .opentext {
 	 float: left;
-	 margin-left: 6px;
+	 margin-left: 12px;
 	 width: 300px;
-	 margin-top: 6.5px;
+	 margin-top: 8px;
+	 font-size: 14px;
 }
 
  .opencircle {
@@ -86,8 +89,6 @@ body {
 .content {
 	postion: relative;
 	margin-top: 35px;
-	margin-left: 50px;
-	margin-right: 50px;
 	margin-bottom: 10px;
 	display: block;
 	padding-bottom: 40px;
@@ -104,22 +105,24 @@ body {
 	color: #666666;
 }
 
-.contentcentered {
-	postion: relative;
-	margin-top: 35px;
-	margin-left: 20%;
-	margin-right: 20%;
-	text-align: left; 
-	margin-bottom: 10px;
-	display: block;
-	padding-bottom: 40px;
-	padding-top: 20px;
-	color: #666666;
+.row-colored {
+	background-color: #fcfaf8;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: #eaeaea;
+	border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #eaeaea;
+}
+
+.centered-content {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .footer {
-	background-color: #474747;
-	color: #eaeaea;
+	background-color: #eaeaea;
+	color: #000000;
 	position: relative;
     bottom: 0px;
 	padding: 2px 5px 2px 5px;
@@ -162,7 +165,18 @@ img {
   transition: opacity 1s ease-in-out;
 }
 
+.read-more-button {
+	background-color: #80303f;
+	border-radius: 9999px;
+	padding: 2px 10px 2px 10px;
+	color: white !important;
+	text-decoration: none;
+	line-height: 0.5;
+}
 
+.center-paragraph {
+	text-align: center;
+}
 
 ul.topnav {
     list-style-type: none;
@@ -180,7 +194,6 @@ ul.topnav li a {
     text-align: center;
     padding: 7px 5px;
     text-decoration: none;
-    transition: 0.3s;
     font-size: 14px;
 	margin-right: 5px
 }
@@ -256,17 +269,16 @@ table {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	padding-bottom: 2px;
-	color: #222222;
-	font-weight: normal;
+	color: #80303f;
+	font-weight: bold;
 	font-family: 'Cabin', sans-serif;
 }
-h1 { font-size: 30px; line-height: 0px; }
-h2 { font-size: 28px; line-height: 0px; }
-h3 { font-size: 26px; line-height: 0px; }
-h4 { font-size: 24px; line-height: 0px; }
-h5 { font-size: 22px; line-height: 0px; }
-h6 { font-size: 19px; line-height: 0px; }
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
 
 hr {
 	border-color: #EAEAEA;
