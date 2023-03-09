@@ -38,7 +38,7 @@ body {
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #FFFFFF;
+	background-color: #FFF9F1;
 	border: solid;
 	border-width: 1px;
 	border-color: #eaeaea;
@@ -84,19 +84,19 @@ body {
 	margin-left: 12px;
 	width: 300px;
 	margin-top: 8px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .content {
 	position: relative;
 	margin-top: 35px;
-	margin-bottom: 10px;
 	display: block;
 	padding-bottom: 10px;
-	padding-top: 20px;
+	padding-top: 30px;
 	color: #666666;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 120px;
+	padding-right: 120px;
+	border-bottom: 1px solid #ffebd1
 }
 
 .mapscontent {
@@ -108,25 +108,12 @@ body {
 	color: #666666;
 }
 
-.row-colored {
-	background-color: #fcfaf8;
-	border-top: solid;
-	border-top-width: 1px;
-	border-top-color: #eaeaea;
-	border-bottom: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #eaeaea;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 .centered-content {
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
 .footer {
-	background-color: #eaeaea;
 	color: #000000;
 	position: relative;
 	bottom: 0px;
@@ -183,7 +170,8 @@ ul.topnav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	border-bottom: 1px solid #eaeaea;
+	/* //background: #ffebd1; */
+	border-bottom: 1px solid #ffebd1;
 }
 
 ul.topnav li {
@@ -227,6 +215,7 @@ p {
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
+	text-align: justify;
 }
 
 ul {
@@ -300,14 +289,16 @@ h6 {
 
 h1 {
 	font-size: 28px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-size: 24px;
+	margin-bottom: 20px;
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 h4 {
@@ -323,11 +314,11 @@ h6 {
 }
 
 hr {
-	border-color: #EAEAEA;
+	border-color: #ffebd1;
 	border-style: solid none none;
-	border-width: 1px 0 0;
+	border-width: 2px 0 0;
 	height: 0;
-	margin: 30px 0;
+	margin: 16px 0;
 }
 
 
@@ -396,10 +387,6 @@ a:active {
 		margin-right: 20px;
 	}
 
-	p {
-		word-break: break-all;
-	}
-
 	ul.topnav li.active {
 		border-bottom: 0px !important
 	}
@@ -410,5 +397,10 @@ a:active {
 		max-width: 100%;
 		margin: 0;
 		border-radius: 0;
+	}
+
+	.content {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
