@@ -223,6 +223,9 @@ ul {
 	font-size: 18px;
 }
 
+ul li{margin-bottom:10px;}
+
+
 strong {
 	font-weight: bold;
 }
