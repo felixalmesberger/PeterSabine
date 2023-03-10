@@ -346,7 +346,7 @@ a:active {
 
 .fa-bars {
 	display: none;
-	margin: 20px;
+	margin: 10px;
 	text-align: right;
 }
 
@@ -375,7 +375,7 @@ a:active {
 
 	.topnav {
 		display: none;
-		background-color: white;
+		background-color: #ffebd1;
 		z-index: 9999;
 		position: relative;
 	}
