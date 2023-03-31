@@ -38,7 +38,7 @@ body {
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #FFF9F1;
+	background-color: #ffffff;
 	border: solid;
 	border-width: 1px;
 	border-color: #eaeaea;
@@ -172,6 +172,9 @@ ul.topnav {
 	overflow: hidden;
 	/* //background: #ffebd1; */
 	border-bottom: 1px solid #ffebd1;
+	margin-bottom: 0px !important;
+	line-height: 1;
+
 }
 
 ul.topnav li {
@@ -185,15 +188,21 @@ ul.topnav li a {
 	padding: 7px 5px;
 	text-decoration: none;
 	font-size: 14px;
-	margin-right: 5px
+	margin-right: 5px;
+	margin-bottom: 0px !important;
+
 }
 
 ul.topnav li:hover {
 	border-bottom: 3px solid #80303f;
+	margin-bottom: 0px !important;
+
 }
 
 ul.topnav li.active {
 	border-bottom: 3px solid #80303f;
+	margin-bottom: 0px !important;
+
 }
 
 ul.topnav li.icon {
@@ -221,9 +230,9 @@ p {
 ul {
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
-}
+	line-height: 1.8;
 
-ul li{margin-bottom:10px;}
+}
 
 
 strong {
